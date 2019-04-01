@@ -111,11 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3lwifi/proprietary/lib/libantradio.so:system/lib/libantradio.so \
     vendor/samsung/gts3lwifi/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/samsung/gts3lwifi/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
-    vendor/samsung/gts3lwifi/proprietary/lib/libkeymaster_messages.so:system/lib/libkeymaster_messages.so \
-    vendor/samsung/gts3lwifi/proprietary/lib/libkeymaster1.so:system/lib/libkeymaster1.so \
     vendor/samsung/gts3lwifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/gts3lwifi/proprietary/lib/libsoftkeymaster.so:system/lib/libsoftkeymaster.so \
-    vendor/samsung/gts3lwifi/proprietary/lib/libsoftkeymasterdevice.so:system/lib/libsoftkeymasterdevice.so \
     vendor/samsung/gts3lwifi/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/samsung/gts3lwifi/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/samsung/gts3lwifi/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
@@ -125,13 +121,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3lwifi/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/samsung/gts3lwifi/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/samsung/gts3lwifi/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/samsung/gts3lwifi/proprietary/lib64/libkeymaster_messages.so:system/lib64/libkeymaster_messages.so \
-    vendor/samsung/gts3lwifi/proprietary/lib64/libkeymaster1.so:system/lib64/libkeymaster1.so \
     vendor/samsung/gts3lwifi/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/samsung/gts3lwifi/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/samsung/gts3lwifi/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
-    vendor/samsung/gts3lwifi/proprietary/lib64/libsoftkeymaster.so:system/lib64/libsoftkeymaster.so \
-    vendor/samsung/gts3lwifi/proprietary/lib64/libsoftkeymasterdevice.so:system/lib64/libsoftkeymasterdevice.so \
     vendor/samsung/gts3lwifi/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/samsung/gts3lwifi/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/samsung/gts3lwifi/proprietary/lib64/vendor.qti.gnss@1.1.so:system/lib64/vendor.qti.gnss@1.1.so \
@@ -213,7 +205,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:system/vendor/lib/hw/activity_recognition.msm8996.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib/hw/camera.msm8996.so:system/vendor/lib/hw/camera.msm8996.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib/hw/fingerprint.msm8996.so:system/vendor/lib/hw/fingerprint.msm8996.so \
-    vendor/samsung/gts3lwifi/proprietary/vendor/lib/hw/gatekeeper.mdfpp.so:system/vendor/lib/hw/gatekeeper.mdfpp.so \
+    vendor/samsung/gts3lwifi/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
+    vendor/samsung/gts3lwifi/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib/hw/vulkan.msm8996.so:system/vendor/lib/hw/vulkan.msm8996.so \
@@ -696,7 +689,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:system/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/hw/fingerprint.msm8996.so:system/vendor/lib64/hw/fingerprint.msm8996.so \
-    vendor/samsung/gts3lwifi/proprietary/vendor/lib64/hw/gatekeeper.mdfpp.so:system/vendor/lib64/hw/gatekeeper.mdfpp.so \
+    vendor/samsung/gts3lwifi/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
+    vendor/samsung/gts3lwifi/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8996.so:system/vendor/lib64/hw/sound_trigger.primary.msm8996.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so \
