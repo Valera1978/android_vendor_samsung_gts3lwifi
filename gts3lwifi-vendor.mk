@@ -817,6 +817,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so
 
+# aptx
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gts3lwifi/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
+    vendor/samsung/gts3lwifi/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so
+
 # workaround for android.hardware.bluetooth@1.0-impl-qti.so
 PRODUCT_COPY_FILES += \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/libbas_.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbas_.so
