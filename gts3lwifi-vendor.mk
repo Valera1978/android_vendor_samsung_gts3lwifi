@@ -192,7 +192,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib/libadsp_hvx_stub.so:system/vendor/lib/libadsp_hvx_stub.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/samsung/gts3lwifi/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib/libbauthserver.so:system/vendor/lib/libbauthserver.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib/libbauthtzcommon.so:system/vendor/lib/libbauthtzcommon.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
@@ -678,7 +677,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
-    vendor/samsung/gts3lwifi/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/libbauthserver.so:system/vendor/lib64/libbauthserver.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/libbauthtzcommon.so:system/vendor/lib64/libbauthtzcommon.so \
     vendor/samsung/gts3lwifi/proprietary/vendor/lib64/libbauthtzcommon_orgn.so:system/vendor/lib64/libbauthtzcommon_orgn.so \
