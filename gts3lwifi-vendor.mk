@@ -70,8 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3lwifi/proprietary/lib/android.frameworks.displayservice@1.0.so:system/lib/android.frameworks.displayservice@1.0.so \
     vendor/samsung/gts3lwifi/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/gts3lwifi/proprietary/lib/libantradio.so:system/lib/libantradio.so \
-    vendor/samsung/gts3lwifi/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
-    vendor/samsung/gts3lwifi/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/samsung/gts3lwifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/gts3lwifi/proprietary/lib/libuniapi.so:system/lib/libuniapi.so \
     vendor/samsung/gts3lwifi/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
@@ -80,8 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3lwifi/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/samsung/gts3lwifi/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/gts3lwifi/proprietary/lib64/libantradio.so:system/lib64/libantradio.so \
-    vendor/samsung/gts3lwifi/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
-    vendor/samsung/gts3lwifi/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/samsung/gts3lwifi/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/samsung/gts3lwifi/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/samsung/gts3lwifi/proprietary/lib64/librcc.so:system/lib64/librcc.so \
